@@ -98,7 +98,7 @@ class Child_Theme_Copy_Settings {
 	                </form>
 	        		<?php
 	        	} else {
-	        		echo '<h3 class="copy-settings-notice">' . esc_html__( 'You are using the main theme or not the Administrator!', 'child-theme-copy-settings' ) . '</h3>';
+	        		echo '<h3 class="copy-settings-notice">' . esc_html__( 'Can not copy settings. Your current theme is not a Child Theme or you do not have Administrator capabilitie!', 'child-theme-copy-settings' ) . '</h3>';
 	        	}
 	        ?>
 	    </div>
